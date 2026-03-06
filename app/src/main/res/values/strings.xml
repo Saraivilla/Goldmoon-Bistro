@@ -12,4 +12,10 @@
     <string name="rubro_de_restaurante">Rubro de restaurante *</string>
     <string name="nombre_de_cliente">Nombre de cliente *</string>
     <string name="continuar">Continuar</string>
+    <string name="resumen_de_pedido">Resumen de pedido</string>
+    <string name="nombre_del_restaurante">Nombre del Restaurante</string>
+    <string name="rubro_del_restaurante">Rubro del Restaurante</string>
+    <string name="nombre_del_cliente">Nombre del Cliente</string>
+    <string name="regresar">Regresar</string>
+    <string name="salir">Salir</string>
 </resources>

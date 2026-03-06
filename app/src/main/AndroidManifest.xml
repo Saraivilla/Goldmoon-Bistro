@@ -15,6 +15,9 @@
             android:name=".Registro"
             android:exported="false" />
         <activity
+            android:name=".Resumen"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

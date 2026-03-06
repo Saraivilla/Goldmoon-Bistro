@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Resumen"
+    android:background="#F0F0F0">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/login"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="340dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardCornerRadius="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/goldmoonblank"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GoldMoon Bistro"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#C5A059"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resumen_de_pedido"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nombre_del_restaurante"/>
+
+            <TextView
+                android:id="@+id/txvRestaurante"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#F0F0F0"
+                android:textSize="20sp"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rubro_del_restaurante"/>
+
+            <TextView
+                android:id="@+id/txvRubro"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#F0F0F0"
+                android:textSize="20sp"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nombre_del_cliente"/>
+
+            <TextView
+                android:id="@+id/txvCliente"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#F0F0F0"
+                android:textSize="20sp"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Usuario"/>
+
+            <TextView
+                android:id="@+id/txvUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#F0F0F0"
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/btnMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Menú"
+                android:backgroundTint="#C5A059"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal">
+                <Button
+                    android:id="@+id/btnRegresar"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/regresar"
+                    android:backgroundTint="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    style="@style/Widget.Material3.Button.OutlinedButton"
+                    android:layout_marginRight="10dp"/>
+
+                <Button
+                    android:id="@+id/btnSalir"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/salir"
+                    android:backgroundTint="#D94934"
+                    android:textStyle="bold"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
