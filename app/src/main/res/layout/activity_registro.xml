@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F0F0F0"
+    android:background="@color/secondary"
     tools:context=".Registro">
 
     <androidx.cardview.widget.CardView
@@ -41,7 +41,7 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="3dp"
-                    android:background="#C5A059"
+                    android:background="@color/primary"
                     android:layout_marginTop="5dp"/>
 
                 <TextView
@@ -71,7 +71,7 @@
                     android:id="@+id/edtRestaurante"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="#F0F0F0"
+                    android:background="@color/secondary"
                     android:height="35dp"/>
 
                 <TextView
@@ -85,7 +85,7 @@
                     android:id="@+id/edtRubro"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="#F0F0F0"
+                    android:background="@color/secondary"
                     android:height="35dp"/>
 
                 <TextView
@@ -99,7 +99,7 @@
                     android:id="@+id/edtCliente"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="#F0F0F0"
+                    android:background="@color/secondary"
                     android:height="35dp"/>
 
                 <Button
@@ -108,7 +108,7 @@
                     android:layout_height="60dp"
                     android:text="@string/continuar"
                     android:layout_marginTop="30dp"
-                    android:backgroundTint="#C5A059"
+                    android:backgroundTint="@color/primary"
                     android:textStyle="bold"
                     android:textSize="18sp"/>
             </LinearLayout>

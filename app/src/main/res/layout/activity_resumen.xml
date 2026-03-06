@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Resumen"
-    android:background="#F0F0F0">
+    android:background="@color/secondary">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/login"
@@ -64,7 +64,7 @@
                 android:id="@+id/txvRestaurante"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                android:background="#F0F0F0"
+                android:background="@color/secondary"
                 android:textSize="20sp"
                 android:layout_marginBottom="15dp"/>
 
@@ -77,7 +77,7 @@
                 android:id="@+id/txvRubro"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                android:background="#F0F0F0"
+                android:background="@color/secondary"
                 android:textSize="20sp"
                 android:layout_marginBottom="15dp"/>
 
@@ -90,7 +90,7 @@
                 android:id="@+id/txvCliente"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                android:background="#F0F0F0"
+                android:background="@color/secondary"
                 android:textSize="20sp"
                 android:layout_marginBottom="15dp"/>
 
@@ -103,7 +103,7 @@
                 android:id="@+id/txvUsuario"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
-                android:background="#F0F0F0"
+                android:background="@color/secondary"
                 android:textSize="20sp"/>
 
             <Button

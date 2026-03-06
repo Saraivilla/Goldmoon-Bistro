@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Menu"
-    android:background="#F0F0F0">
+    android:background="@color/secondary">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/login"
@@ -42,7 +42,7 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="3dp"
-                android:background="#C5A059"
+                android:background="@color/primary"
                 android:layout_marginTop="5dp"/>
 
             <TextView
@@ -66,7 +66,7 @@
                 android:id="@+id/lstvPlatillo"
                 android:layout_width="match_parent"
                 android:layout_height="340dp"
-                android:background="#F0F0F0"
+                android:background="@color/secondary"
                 android:divider="#D0D0D0"
                 android:dividerHeight="1dp"
                 android:padding="8dp"

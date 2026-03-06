@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#F0F0F0">
+    android:background="@color/secondary">
 
 
     <androidx.cardview.widget.CardView
@@ -36,7 +36,7 @@
                 android:textSize="25sp"
                 android:textStyle="bold"
                 android:layout_gravity="center"
-                android:textColor="#C5A059"
+                android:textColor="@color/primary"
                 android:layout_marginTop="35dp"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -49,7 +49,7 @@
                 android:id="@+id/edtUsuario"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#F0F0F0"
+                android:background="@color/secondary"
                 android:height="35dp"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -62,7 +62,7 @@
                 android:id="@+id/edtClave"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#F0F0F0"
+                android:background="@color/secondary"
                 android:height="35dp"/>
 
             <Button
@@ -71,7 +71,7 @@
                 android:layout_height="60dp"
                 android:text="@string/ingresar"
                 android:layout_marginTop="30dp"
-                android:backgroundTint="#C5A059"
+                android:backgroundTint="@color/primary"
                 android:textStyle="bold"
                 android:textSize="18sp"/>
 
