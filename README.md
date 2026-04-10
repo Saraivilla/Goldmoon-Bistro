@@ -9,15 +9,15 @@ Aplicación Android desarrollada en Java orientada al sector gastronómico. Perm
 - ListView con nombres de productos
   
 📱 Estructura de la app
-Activity 1: Login simulado
-Activity 2: Registro del restaurante
-Activity 3: Visualización de datos
-Activity 4: Listado de productos
+- Activity 1: Login simulado
+- Activity 2: Registro del restaurante
+- Activity 3: Visualización de datos
+- Activity 4: Listado de productos
 
 🛠️ Tecnologías
-Java
-Android Studio
-XML (layouts)
+- Java
+- Android Studio
+- XML (layouts)
 
 👩‍💻 Autora
 Sarai Villalta
@@ -29,5 +29,5 @@ Aplicación desarrollada como parte de un curso universitario enfocado en desarr
 La aplicación utiliza un login simulado (sin base de datos).
 Puedes acceder con las siguientes credenciales:
 
-Usuario: LilianaVillalta
-Contraseña: goldmoon123
+- Usuario: LilianaVillalta
+- Contraseña: goldmoon123
