@@ -12,9 +12,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class Registro extends AppCompatActivity {
 
+    //Creación de Variables
     EditText edtrestaurante, edtcliente, edtrubro;
     Button btncontinuar;
-
     String usr = null;
 
     @Override
@@ -23,26 +23,32 @@ public class Registro extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_registro);
 
+        //Obtener referencia a componentes
         edtrestaurante = findViewById(R.id.edtRestaurante);
         edtcliente = findViewById(R.id.edtCliente);
         edtrubro = findViewById(R.id.edtRubro);
-
         btncontinuar = findViewById(R.id.btnContinuar);
 
+        //Acciones Botón continuar
         btncontinuar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
+                //Obtenemos valores ingresados por el usuario
                 String restaurante = edtrestaurante.getText().toString();
                 String rubro = edtrubro.getText().toString();
                 String cliente = edtcliente.getText().toString();
 
+                //Obtener información de activity anterior (usuario)
                 Bundle bundle = getIntent().getExtras();
                 usr = bundle.getString("usuario");
 
+                //Validación campos vacíos
                 if(restaurante.isEmpty() || rubro.isEmpty() || cliente.isEmpty()){
                     Toast.makeText(getApplicationContext(), "Complete los campos", Toast.LENGTH_SHORT).show();
-                }else{
+                }
+                //Navegación hacia activity de Resumen, enviado información
+                else{
                     Toast.makeText(getApplicationContext(), "Información guardada! " , Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(Registro.this, Resumen.class);
 
